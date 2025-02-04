@@ -1,5 +1,9 @@
+body{
+    background-image: url('../img/hatter.png');
+    background-position: center;
+}
 .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: -8px;
 }
 .carousel-caption {
     bottom: 3rem;
@@ -7,4 +11,19 @@
 }
 .carousel-item {
     height: 20rem;
+}
+.adatok{
+    margin-top: 0px;
+}
+.kep{
+    border: 1px solid black;
+    padding: 40px;
   }
+.card{
+    width: 220px;
+    margin: 10px;
+}
+.szurofeltetel{
+    background-color: gray;
+    opacity: 0.9;
+}
