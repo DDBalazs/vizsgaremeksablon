@@ -1,6 +1,6 @@
 body{
     background-image: url('../img/hatter.png');
-    background-position: center;
+    background-size: cover;
 }
 .carousel {
     margin-bottom: -8px;
