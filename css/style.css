@@ -1,17 +1,17 @@
+/* layout */
 body{
     background-image: url('../img/hatter.png');
     background-size: cover;
 }
-.carousel {
-    margin-bottom: -8px;
+.nav-bg{
+    background-color: rgb(175, 97, 7);
 }
-.carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
+.logo{
+    height: 50px;
+    width: 50px;
 }
-.carousel-item {
-    height: 20rem;
-}
+
+/* adatok */
 .adatok{
     margin-top: 0px;
 }
@@ -26,4 +26,34 @@ body{
 .szurofeltetel{
     background-color: gray;
     opacity: 0.9;
+}
+
+/* main page */
+.carousel {
+    margin-bottom: -8px;
+}
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+.carousel-item {
+    height: 100vh;
+}
+.bg1{
+    background-image: url("..//img/layout/slide1.png");
+    background-size: cover;
+    background-position: center center;
+
+}
+.bg2{
+    background-image: url("..//img/layout/slide2.png");
+    background-size: cover;
+    background-position: center center;
+
+}
+.bg3{
+    background-image: url("..//img/layout/slide3.png");
+    background-size: cover;
+    background-position: center center;
+
 }
