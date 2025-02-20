@@ -3,18 +3,12 @@ body{
     background-image: url('../img/hatter.png');
     background-size: cover;
 }
-.nav-bg{
-    background-color: rgb(175, 97, 7);
-}
 .logo{
     height: 50px;
     width: 50px;
 }
 
 /* adatok */
-.adatok{
-    margin-top: 0px;
-}
 .kep{
     border: 1px solid black;
     padding: 40px;
@@ -61,4 +55,25 @@ hr{
     border: 10px solid black;
     opacity: 1;
     margin: 0px;
+}
+
+/* nav / stickynav */
+nav {
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+    background-color: transparent;
+    transition: background-color 0.4s ease;
+}
+
+nav.header-sticky {
+    position: fixed;
+    background-color: rgba(83, 41, 2, 0.9); 
+    top: 0;
+    z-index: 2000;
+}
+
+footer{
+    background-color: rgb(54, 31, 9);
 }
