@@ -51,10 +51,15 @@ body{
     background-position: center center;
 
 }
+
+/* VONAL */
 hr{
     border: 10px solid black;
     opacity: 1;
     margin: 0px;
+}
+.vonal{
+    margin-top: 200px;
 }
 
 /* nav / stickynav */
@@ -64,16 +69,78 @@ nav {
     width: 100%;
     z-index: 1000; 
     background-color: transparent;
-    transition: background-color 0.4s ease;
+    transition: background-color 0.2s ease;
 }
-
 nav.header-sticky {
     position: fixed;
-    background-color: rgba(83, 41, 2, 0.9); 
+    background-color: rgb(165, 112, 42); 
     top: 0;
     z-index: 2000;
 }
 
+/* Footer */
 footer{
     background-color: rgb(54, 31, 9);
+    height: 300px;
+    color: rgb(165, 112, 42);
+}
+footer a{
+    color: rgb(165, 112, 42);
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(165, 112, 42);
+    text-decoration: underline;
+}
+
+@keyframes scroll{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.textboxok{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: auto;
+    width: 800px;
+    margin: auto;
+    margin-top: 200px;
+    font-size:x-large;
+    padding: 20px;
+
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+.textboxok p{
+    text-align: left;
+}
+.lkepek{
+    height: 435px;
+    width: 435px;
+    border: 1px solid black;
+    margin: 60px;
+    text-align: center;
+}
+.onkentes{
+    color: black;
+    height: auto;
+    width: 800px;
+    margin: auto;
+    font-size:x-large;
+    padding: 20px;
+
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.onkentes p{
+    text-align: left;
 }
